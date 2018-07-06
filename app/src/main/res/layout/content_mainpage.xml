@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gradStop"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity">
+
+
+<GridLayout
+    android:id="@+id/MainGrid"
+
+    android:layout_marginTop="70dp"
+    android:columnCount="2"
+    android:alignmentMode="alignMargins"
+    android:columnOrderPreserved="false"
+    android:padding="14dp"
+
+    android:rowCount="3"
+    android:layout_weight="8"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+<!-- Row 1-->
+    <!-- Column 1-->
+<android.support.v7.widget.CardView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    >
+
+<LinearLayout
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+<ImageView
+    android:id="@+id/Img_start_workout"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+android:src="@drawable/weightlifting"
+    android:layout_gravity="center_horizontal"
+
+    />
+
+    <Button
+        android:onClick="Click_Start"
+        android:id="@+id/txt_start"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:background="@color/transparent"
+        android:fontFamily="sans-serif"
+        android:text="Start Workout"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/gradStart"
+        android:textSize="18dp"
+
+
+        />
+
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        >
+
+        <LinearLayout
+
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/Img_Maps"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+
+                android:src="@drawable/google" />
+
+            <Button
+                android:onClick="Click_Gym"
+                android:textAllCaps="false"
+                android:id="@+id/txt_gym"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:background="@color/transparent"
+                android:fontFamily="sans-serif"
+                android:text="Locate Gym"
+                android:textAlignment="center"
+                android:textColor="@color/gradStart"
+                android:textSize="18dp"
+
+
+                />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        >
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/Img_workout_history"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/stopwatch"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <Button
+                android:onClick="Click_History"
+                android:textAllCaps="false"
+                android:background="@color/transparent"
+                android:id="@+id/txt_workout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Workout History"
+                android:textAlignment="center"
+                android:textColor="@color/gradStart"
+                android:textSize="18dp"
+                android:fontFamily="sans-serif"
+
+
+                />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        >
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/Img_Profile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/users"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <Button
+                android:onClick="Click_Profile"
+                android:textAllCaps="false"
+                android:background="@color/transparent"
+                android:id="@+id/txt_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Profile"
+                android:textAlignment="center"
+                android:textColor="@color/gradStart"
+                android:textSize="18dp"
+                android:fontFamily="sans-serif"
+
+
+                />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        >
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/Img_Settings"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/settings"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <Button
+
+                android:textAllCaps="false"
+                android:background="@color/transparent"
+                android:id="@+id/btn_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:textAlignment="center"
+                android:textColor="@color/gradStart"
+                android:textSize="18dp"
+                android:fontFamily="sans-serif"
+
+
+                />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        >
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:id="@+id/Img_exit"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/exit"
+                android:layout_gravity="center_horizontal"
+
+                />
+            <Button
+
+                android:textAllCaps="false"
+                android:background="@color/transparent"
+                android:id="@+id/btn_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exit"
+                android:textAlignment="center"
+                android:textColor="@color/gradStart"
+                android:textSize="18dp"
+                android:fontFamily="sans-serif"
+
+
+                />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</GridLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

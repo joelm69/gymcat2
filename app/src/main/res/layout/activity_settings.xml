@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gradStop"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".StartWorkout">
+
+    <GridLayout
+        android:id="@+id/MainGrid"
+
+        android:layout_marginTop="70dp"
+        android:columnCount="1"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+
+        android:rowCount="3"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/Img_change_language"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/language"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+
+                <Button
+
+                    android:id="@+id/btn_language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:text="Change Language"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/gradStart"
+                    android:textSize="18dp"
+
+
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/Img_update_profile"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/update_profile"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+
+                <Button
+
+                    android:id="@+id/btn_update_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:text="Update Profile"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/gradStart"
+                    android:textSize="18dp"
+
+
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="8dp"
+            >
+
+            <LinearLayout
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/Img_home"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/house"
+                    android:layout_gravity="center_horizontal"
+
+                    />
+
+                <Button
+
+                    android:id="@+id/btn_home"
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:background="@color/transparent"
+                    android:fontFamily="sans-serif"
+                    android:text="Return Home"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/gradStart"
+                    android:textSize="18dp"
+
+
+                    />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </GridLayout>
+
+</LinearLayout>

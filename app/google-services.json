@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "90652219956",
+    "firebase_url": "https://gym94124.firebaseio.com",
+    "project_id": "gym94124",
+    "storage_bucket": "gym94124.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90652219956:android:016c10ccafa227bf",
+        "android_client_info": {
+          "package_name": "com.halo.loginui2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90652219956-4fia2p9g1h2rp58l38ovnkseqemao83i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.halo.loginui2",
+            "certificate_hash": "e1212b4f7dace259241ff4ad3fb54503d10c13be"
+          }
+        },
+        {
+          "client_id": "90652219956-dbom7up76oqumncpo2nmjg4a4de9ja0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_Dx_QHFyLMIx8wvtOLLMTK7f0H28_WC4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90652219956-dbom7up76oqumncpo2nmjg4a4de9ja0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Gym</string>
+    <string name="fullname">Fullname</string>
+    <string name="retype_password">Retype Password</string>
+
+    <string name="email_address">Email Address</string>
+    <string name="password">password</string>
+    <string name="phone">phone</string>
+    <string name="Fullname">Fullname</string>
+    <string name="Phonenumber">Phonenumber</string>
+    <string name="Password">Password</string>
+    <string name="title_activity_mainpage">Mainpage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="start_workout">start_workout</string>
+    <string name="API_KEY">AIzaSyD3uRWvqLGazGafsIzqlsVXd6yRooSNmug</string>
+    <string name="title_activity_change_language">ChangeLanguage</string>
+    <string name="lang_change">Language has Changed.</string>
+</resources>
+
+
+
+

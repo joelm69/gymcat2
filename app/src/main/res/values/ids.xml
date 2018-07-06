@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Fullname" type="id">Fullname</item>
+    <item name="phonenumber" type="id">phonenumber</item>
+    <item name="Phonenumber" type="id">Phonenumber</item>
+    <item name="email_address" type="id">email_address</item>
+    <item name="Password" type="id">Password</item>
+    <item name="retype_password" type="id">retype_password</item>
+    <item name="nav_stopwatch" type="id">nav_stopwatch</item>
+    <item name="nav_exit" type="id">nav_exit</item>
+    <item name="fab" type="id">fab</item>
+    <item name="toolbar" type="id">toolbar</item>
+    <item name="MainGrid" type="id">MainGrid</item>
+    <item name="progressbar" type="id">progressbar</item>
+
+</resources>
